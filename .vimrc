@@ -51,4 +51,7 @@ nmap <buffer> <F5> :w<Esc>mwG:r!python %<CR>`.
 " Wrap at 72 chars for comments.
 set formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]
 
+" Backspace now makes sense
+set backspace=indent,eol,start
+
 colorscheme distinguished
